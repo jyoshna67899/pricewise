@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PriceWise — Smart Price Comparison</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#"><b>PW</b><span>Price<span>Wise</span></span></a>
+  <div class="search"><span>⌕</span><input id="search" placeholder="Search products, brands or categories…"><button id="clear">×</button></div>
+  <div class="top-actions"><button id="theme">☾</button><button id="wishNav">♡ Wishlist <em id="wishCount">0</em></button></div>
+</header>
+
+<main class="container">
+<section class="hero">
+ <div>
+  <small>SMART SHOPPING PLATFORM</small>
+  <h1>Compare prices.<br><span>Shop smarter.</span></h1>
+  <p>Compare products across multiple stores, inspect discounts and ratings, find the lowest listed price, and track your wishlist.</p>
+  <button class="primary" id="explore">Explore deals →</button>
+ </div>
+ <div class="hero-insight"><small>TODAY'S DEMO INSIGHT</small><strong id="heroSave">₹0</strong><p>maximum price difference found</p><div class="bars"><i></i><i></i><i></i><i></i><i></i></div></div>
+</section>
+
+<section class="stats">
+ <div><span>Products</span><strong id="statProducts">0</strong></div>
+ <div><span>Stores compared</span><strong>4</strong></div>
+ <div><span>Average discount</span><strong id="statDiscount">0%</strong></div>
+ <div><span>Best listed price</span><strong id="statBest">₹0</strong></div>
+</section>
+
+<section id="productsSection">
+ <div class="heading"><div><small>CATALOG</small><h2>Compare products</h2></div>
+ <div class="filters"><select id="category"><option>All</option><option>Mobiles</option><option>Laptops</option><option>Audio</option><option>Accessories</option></select>
+ <select id="sort"><option value="featured">Featured</option><option value="low">Price: Low → High</option><option value="high">Price: High → Low</option><option value="discount">Discount</option><option value="rating">Rating</option></select></div></div>
+ <div id="grid" class="grid"></div><div id="empty" class="empty hide">No matching products found.</div>
+</section>
+
+<section class="dashboard">
+ <article class="panel">
+  <div class="heading"><div><small>PRICE ANALYSIS</small><h2>Store comparison</h2></div><select id="chartProduct"></select></div>
+  <div class="chart"><canvas id="chart"></canvas></div>
+ </article>
+ <article class="panel">
+  <small>BEST DEAL</small><h2>Deal summary</h2><div id="deal"></div>
+ </article>
+</section>
+
+<section class="panel history">
+ <div class="heading"><div><small>PRICE TRACKING</small><h2>Demo price history</h2></div><select id="historyProduct"></select></div>
+ <div class="chart history-chart"><canvas id="historyChart"></canvas></div>
+ <p class="note">Historical values are sample data for this portfolio prototype. Live retailer prices require permitted APIs/feeds.</p>
+</section>
+
+<section class="panel">
+ <div class="heading"><div><small>WISHLIST</small><h2>Saved products</h2></div></div>
+ <div id="wishlist" class="wishlist-grid"></div>
+</section>
+</main>
+
+<footer><strong>PriceWise</strong><span>Smart Price Comparison • Portfolio project • Demo data</span></footer>
+
+<div id="modal" class="modal hide"><div class="modal-card"><button id="close" class="close">×</button><div id="modalBody"></div></div></div>
+<div id="toast" class="toast"></div>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,194 @@
+[
+  {
+    "id": 1,
+    "name": "Galaxy S24",
+    "brand": "Samsung",
+    "category": "Mobiles",
+    "retailers": [
+      {
+        "store": "Amazon",
+        "price": 52999
+      },
+      {
+        "store": "Flipkart",
+        "price": 51999
+      },
+      {
+        "store": "Croma",
+        "price": 54490
+      },
+      {
+        "store": "Reliance Digital",
+        "price": 53999
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "iPhone 15",
+    "brand": "Apple",
+    "category": "Mobiles",
+    "retailers": [
+      {
+        "store": "Amazon",
+        "price": 61999
+      },
+      {
+        "store": "Flipkart",
+        "price": 62999
+      },
+      {
+        "store": "Croma",
+        "price": 64990
+      },
+      {
+        "store": "Reliance Digital",
+        "price": 63999
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Pavilion 15",
+    "brand": "HP",
+    "category": "Laptops",
+    "retailers": [
+      {
+        "store": "Amazon",
+        "price": 58990
+      },
+      {
+        "store": "Flipkart",
+        "price": 57990
+      },
+      {
+        "store": "Croma",
+        "price": 60490
+      },
+      {
+        "store": "Reliance Digital",
+        "price": 59990
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "MacBook Air M2",
+    "brand": "Apple",
+    "category": "Laptops",
+    "retailers": [
+      {
+        "store": "Amazon",
+        "price": 82990
+      },
+      {
+        "store": "Flipkart",
+        "price": 84990
+      },
+      {
+        "store": "Croma",
+        "price": 87990
+      },
+      {
+        "store": "Reliance Digital",
+        "price": 86990
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "WH-1000XM5",
+    "brand": "Sony",
+    "category": "Audio",
+    "retailers": [
+      {
+        "store": "Amazon",
+        "price": 27990
+      },
+      {
+        "store": "Flipkart",
+        "price": 28990
+      },
+      {
+        "store": "Croma",
+        "price": 29990
+      },
+      {
+        "store": "Reliance Digital",
+        "price": 29490
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Airdopes 141",
+    "brand": "boAt",
+    "category": "Audio",
+    "retailers": [
+      {
+        "store": "Amazon",
+        "price": 1299
+      },
+      {
+        "store": "Flipkart",
+        "price": 1399
+      },
+      {
+        "store": "Croma",
+        "price": 1499
+      },
+      {
+        "store": "Reliance Digital",
+        "price": 1449
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "MX Keys Mini",
+    "brand": "Logitech",
+    "category": "Accessories",
+    "retailers": [
+      {
+        "store": "Amazon",
+        "price": 7495
+      },
+      {
+        "store": "Flipkart",
+        "price": 7699
+      },
+      {
+        "store": "Croma",
+        "price": 7899
+      },
+      {
+        "store": "Reliance Digital",
+        "price": 7790
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Mi Power Bank 4i",
+    "brand": "Xiaomi",
+    "category": "Accessories",
+    "retailers": [
+      {
+        "store": "Amazon",
+        "price": 2199
+      },
+      {
+        "store": "Flipkart",
+        "price": 2299
+      },
+      {
+        "store": "Croma",
+        "price": 2399
+      },
+      {
+        "store": "Reliance Digital",
+        "price": 2249
+      }
+    ]
+  }
+]
